@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Desenvolvedor Front-End</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Thiago Zanchet</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+          <li><a href="#projetos" class="hover:underline">Projetos</a></li>
+          <li><a href="#contato" class="hover:underline">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="py-12 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-4">Sobre Mim</h2>
+        <p class="text-lg">Olá! Meu nome é Zanchet e sou um desenvolvedor front-end em transição de carreira apaixonado tecnologia e criar interfaces modernas e funcionais.
+           Tenho ensino superior completo em Gestão da Tecnologia da Informação pela Estácio e atualmente estou cursando Engenharia de Software na Uninter. 
+           Meu objetivo é me tornar um bom desenvolvedor para poder ajudar aos meus colegas e à empresa da melhor maneira possível. 
+           Adoro transformar ideias em realidade através do código!</p>
+        <p class="text-lg mt-4">Tecnologias que utilizo frequentemente: HTML, CSS, JavaScript, TailwindCSS, React, e Git.</p>
+      </div>
+    </section>
+
+    <section id="projetos" class="py-12 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-8">Projetos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Projeto 1 -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img src="https://via.placeholder.com/300" alt="Sistema de Gerenciamento de Tarefas" class="w-full h-48 object-cover rounded">
+            <h3 class="text-xl font-bold mt-4">Sistema de Gerenciamento de Tarefas</h3>
+            <p class="mt-2">Um sistema web que permite equipes organizarem tarefas e acompanhar o progresso em tempo real. Desenvolvido com React, Node.js, e MongoDB, incluindo autenticação de usuários e integração com APIs externas.</p>
+            <a href="https://github.com/thiagozanchet/gerenciamento-tarefas" target="_blank" class="text-blue-600 hover:underline mt-2 block">Ver projeto</a>
+          </div>
+          <!-- Projeto 2 -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img src="https://via.placeholder.com/300" alt="Dashboard de Análise de Dados" class="w-full h-48 object-cover rounded">
+            <h3 class="text-xl font-bold mt-4">Dashboard de Análise de Dados</h3>
+            <p class="mt-2">Criei um painel interativo para visualização de dados empresariais utilizando React e Chart.js. O sistema permite filtros dinâmicos e exportação de relatórios em PDF.</p>
+            <a href="https://github.com/thiagozanchet/dashboard-analise-dados" target="_blank" class="text-blue-600 hover:underline mt-2 block">Ver projeto</a>
+          </div>
+          <!-- Projeto 3 -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img src="https://via.placeholder.com/300" alt="E-commerce Responsivo" class="w-full h-48 object-cover rounded">
+            <h3 class="text-xl font-bold mt-4">E-commerce Responsivo</h3>
+            <p class="mt-2">Desenvolvi um site de e-commerce funcional com React, Redux e Stripe para gerenciamento de pagamentos. O design é totalmente responsivo, garantindo ótima experiência em dispositivos móveis.</p>
+            <a href="https://github.com/thiagozanchet/ecommerce-responsivo" target="_blank" class="text-blue-600 hover:underline mt-2 block">Ver projeto</a>
+          </div>
+          <!-- Projeto 4 -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img src="https://via.placeholder.com/300" alt="Plataforma de Cursos Online" class="w-full h-48 object-cover rounded">
+            <h3 class="text-xl font-bold mt-4">Plataforma de Cursos Online</h3>
+            <p class="mt-2">Desenvolvi uma plataforma para cursos online que inclui autenticação de usuários, cadastro de cursos e acompanhamento de progresso. Tecnologias utilizadas: React, Firebase e TailwindCSS.</p>
+            <a href="https://github.com/thiagozanchet/plataforma-cursos-online" target="_blank" class="text-blue-600 hover:underline mt-2 block">Ver projeto</a>
+          </div>
+          <!-- Projeto 5 -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img src="https://via.placeholder.com/300" alt="API RESTful para Gerenciamento de Produtos" class="w-full h-48 object-cover rounded">
+            <h3 class="text-xl font-bold mt-4">API RESTful para Gerenciamento de Produtos</h3>
+            <p class="mt-2">Desenvolvi uma API RESTful utilizando Node.js, Express e MongoDB para gerenciar produtos em uma aplicação de inventário. A API possui endpoints para criação, leitura, atualização e exclusão de produtos, além de autenticação JWT para segurança.</p>
+            <a href="https://github.com/thiagozanchet/api-gerenciamento-produtos" target="_blank" class="text-blue-600 hover:underline mt-2 block">Ver projeto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-12 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-4">Contato</h2>
+        <p class="text-lg mb-6">Entre em contato comigo para colaborar em projetos ou apenas para dizer olá!</p>
+        <p class="text-lg mb-4">Telefone: <a href="tel:+5548999449079" class="text-blue-600 hover:underline">48 99944-9079</a></p>
+        <p class="text-lg mb-4">Email: <a href="https://mail.google.com/mail/u/0/#inbox" class="text-blue-600 hover:underline">tzanchet18@gmail.com</a></p>
+        <p class="text-lg mb-4">Linkedin: <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.12619604099_asid.149519181115_crid.725790844702_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9102222" class="text-blue-600 hover:underline">www.linkedin.com/in/thiagozanchet</a></p>
+        <form action="https://formsubmit.co/tzanchet18@gmail.com" method="POST" class="max-w-lg mx-auto">
+          <div class="mb-4">
+            <input type="text" name="nome" placeholder="Seu nome" class="w-full p-3 border border-gray-300 rounded-lg" required>
+          </div>
+          <div class="mb-4">
+            <input type="email" name="email" placeholder="Seu e-mail" class="w-full p-3 border border-gray-300 rounded-lg" required>
+          </div>
+          <div class="mb-4">
+            <textarea name="mensagem" rows="4" placeholder="Sua mensagem" class="w-full p-3 border border-gray-300 rounded-lg" required></textarea>
+          </div>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Thiago da Rosa Zanchet. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
